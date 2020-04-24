@@ -11,8 +11,8 @@ script:
 
 deploy:
     provider: azure_web_apps
-    username: $AZURE_USERNAME
-    password: $AZURE_PWD
+    username: $AZURE_WA_USERNAME
+    password: $AZURE_WA_PASSWORD
     site: "react-docker"
     edge: true
 
